@@ -5,6 +5,7 @@ relative_permalinks: true
 # Setup
 title:            iMega's Blog
 tagline:          This notebook
+description:      'Thinking out loud.'
 url:              http://imega.ru
 paginate:         3
 baseurl:          /
@@ -17,3 +18,7 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/iMega
+
+# Dependencies
+markdown:         redcarpet
+pygments:         true

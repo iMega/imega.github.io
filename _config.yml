@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            iMega's Blog
 tagline:          This notebook
 url:              http://imega.ru
-paginate:         1
+paginate:         3
 baseurl:          /
 author:
   name:           Dmitry Gavriloff
@@ -16,4 +16,4 @@ author:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/iMega/imega.github.io
+  repo:           https://github.com/iMega

@@ -47,5 +47,5 @@ $ prlsrvctl net list
 remove rule with port 2375
 
 ```
-$ net set Shared --nat-tcp-del tcp2375
+$ prlsrvctl net set Shared --nat-tcp-del tcp2375
 ```

@@ -42,9 +42,9 @@ In StorageClient
     NSError *error = nil;
     [[NSFileManager defaultManager] moveItemAtPath:defaultPath toPath:compressPath error:&error];
 
-    RLMRealm *copy = [RLMRealm realmWithPath:compatedRealmPath];
+    RLMRealm *copy = [RLMRealm realmWithPath:compressPath];
     [copy writeCopyToPath:defaultPath error:nil];
-    [[NSFileManager defaultManager] removeItemAtPath:ccompressPath error:&error];
+    [[NSFileManager defaultManager] removeItemAtPath:compressPath error:&error];
     copy = nil;
 }
 ```

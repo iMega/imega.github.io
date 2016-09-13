@@ -5,7 +5,8 @@ permalink:        pretty
 title:            iMega's Blog
 tagline:          This notebook
 description:      'Thinking out loud.'
-url:              http://imega.ru
+url: https://imega.club
+enforce_ssl: imega.club
 paginate:         3
 baseurl:          /
 author:

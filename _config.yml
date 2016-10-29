@@ -1,24 +1,28 @@
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            iMega's Blog
-tagline:          This notebook
-description:      'Thinking out loud.'
+permalink: pretty
+title: iMega's Blog
+tagline: This notebook
+description: 'Thinking out loud.'
 url: https://imega.club
 enforce_ssl: imega.club
-paginate:         3
-baseurl:          /
+paginate: 3
+baseurl: /
 author:
-  name:           Dmitry Gavriloff
-  url:            http://imega.ru
-  email:          info@imega.ru
-
-# Custom vars
-version:          1.0.0
+  name: Dmitry Gavriloff
+  url: http://imega.ru
+  email: info@imega.ru
+version: 1.0.0
 github:
-  repo:           https://github.com/iMega
-
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+  repo: https://github.com/iMega
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+highlighter: true
+gems:
+  - jekyll-paginate

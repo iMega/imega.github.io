@@ -1,0 +1,13 @@
+language: ruby
+before_install:
+- travis_retry gem install bitballoon
+- travis_retry gem install jekyll
+script: jekyll build
+after_success: bitballoon deploy _site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID
+branches:
+  only:
+  - master
+env:
+  global:
+  - secure: ExKPutpSWGVB8Trdne0yvB70Fw22loj82Puayh0hJ9mJRGhxpDO+QWz1MGEo5f9f1NrwvlQTgTQjM4uGeyjkJ5bxu0yP2uzaQMTiGecOIi5LcmQWj7ooypCQg5IQ4Tcy1kS0v1NofJLAKjgdbxanGBvvslEnM/qu3obRNDGhhs8=
+  - secure: Yy9Vw4B+eODkGoUxJBZVNXA+HoKhq75W471Q6onPzdwytQFoX14OHIpmfM1IE0dw/xZUW2M6D5CSufUzAVDvSkbagd9CJjItIep/A0VeAC5ByMuXW4tgUZF6jys3nCmZKzZBSFB2k7WsI9Jh25FSYI0MqYWJdDuLp6Bd+0adBdQ=

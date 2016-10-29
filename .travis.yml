@@ -2,8 +2,9 @@ language: ruby
 rvm:
   - 2.2.0
 before_install:
-- travis_retry gem install bitballoon
-- travis_retry gem install jekyll
+  - travis_retry gem install bitballoon
+  - travis_retry gem install jekyll
+  - travis_retry gem install jekyll-paginate
 script: jekyll build
 after_success: bitballoon deploy _site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID
 branches:

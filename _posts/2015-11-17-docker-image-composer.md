@@ -1,7 +1,16 @@
 ---
 layout: post
 title: Composer
+lang: en-US
+tags:
+  - docker
+  - image
+  - composer
 ---
+This is docker image to run the [composer](https://getcomposer.org).
+
+<!--more-->
+
 This is docker image to run the [composer](https://getcomposer.org).
 
 Image size: 44 MB

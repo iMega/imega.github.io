@@ -1,6 +1,14 @@
 ---
 layout: post
 title: Как в jenkins использовать имя пользователя для репозитария вместо UUID
+lang: ru-RU
+tags:
+  - jenkins
+  - job-dsl
+  - Credential
+  - continuous integration
+  - Troubleshooting
+  - automation
 ---
 Используя [JOB-DSL-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki) есть маленькая неприятность, когда используешь scm например
 
@@ -18,6 +26,8 @@ scm {
 ```
 
 в myCredential приходится указывать не имя, а UUID, фича ли это не знаю, но мне лично не удобно этим оперировать.
+
+<!--more-->
 
 Решение оказалось довольно простым:
 

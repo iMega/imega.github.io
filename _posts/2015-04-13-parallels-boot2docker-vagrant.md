@@ -1,9 +1,20 @@
 ---
 layout: post
 title: Parallels Boot2docker Vagrant
+lang: en-US
+tags:
+  - parallels
+  - Boot2docker
+  - Vagrant
+  - docker
+  - bash
+  - profile
+  - Troubleshooting
 ---
 
 Setup DevEnv to running boo2docker through parallels.
+
+<!--more-->
 
 [My Vagrantfile](https://github.com/iMega/boot2docker)
 
@@ -30,14 +41,17 @@ $ prlsrvctl net set Shared --ip 10.0.3.2/24 --dhcp-server on --dhcp-ip 10.0.3.1 
 ```
 $ vagrant up
 ```
+
 ## Halt VM
 ```
 $ vagrant halt
 ```
+
 ## Destroy VM
 ```
 $vagrant destroy
 ```
+
 ## Troubleshooting
 `The forwarded port to 2375 is already in use on the host machine.`
 

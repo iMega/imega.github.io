@@ -1,12 +1,24 @@
 ---
 layout: post
 title: Vagrant Boot2Docker Syslog
+lang: en-US
+tags:
+  - parallels
+  - Boot2docker
+  - Vagrant
+  - docker
+  - bash
+  - mac-os-x
+  - Syslog
 ---
+A short story about how to make work for yourself Syslog.
+
+<!--more-->
 
 ## Start syslogd on mac
 
 Convert plist to XML
- 
+
 ```
 $ sudo plutil -convert xml1 /System/Library/LaunchDaemons/com.apple.syslogd.plist
 $ sudo vi /System/Library/LaunchDaemons/com.apple.syslogd.plist

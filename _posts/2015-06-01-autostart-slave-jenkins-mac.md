@@ -1,7 +1,17 @@
 ---
 layout: post
 title: Autostart Jenkins slave on Mac OS X
+lang: en-US
+tags:
+  - jenkins
+  - mac-os-x
+  - continuous integration
+  - automation
 ---
+The com.jenkins.slave.plist in ~/Library/LaunchAgents
+
+<!--more-->
+
 The com.jenkins.slave.plist in ~/Library/LaunchAgents:
 
 ```

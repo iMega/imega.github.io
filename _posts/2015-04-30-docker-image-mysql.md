@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Mysql - WE RUSH!
+lang: en-US
+tags:
+  - mysql
+  - docker
+  - image
+  - database
 ---
 
 This is docker image to run a MySQL database server.
@@ -10,6 +16,8 @@ Image size: 80 MB
 From image: gliderlabs/alpine:3.1
 
 Mysql Server: 5.5.40-r1
+
+<!--more-->
 
 ## FREE ACCESS to server! Why?
 
@@ -26,7 +34,7 @@ Connect your DB thouth volume.
 Mount empty folder into volume.
 
 ## INCLUDE YOUR CONFIG
-This is a simple 
+This is a simple
 
 ```
 -v /my/custom/configs:/etc/mysql/conf.d

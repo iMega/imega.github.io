@@ -1,8 +1,19 @@
 ---
 layout: post
 title: Parallels Boot2docker Vagrant
+lang: ru-RU
+tags:
+  - parallels
+  - Boot2docker
+  - Vagrant
+  - docker
+  - bash
+  - profile
+  - Troubleshooting
 ---
 Настройка рабочего окружения под управлением boo2docker через parallels.
+
+<!--more-->
 
 [Мой Vagrantfile](https://github.com/iMega/boot2docker)
 

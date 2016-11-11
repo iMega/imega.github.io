@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Mysql client - WE RUSH!
+lang: en-US
+tags:
+  - mysql
+  - client
+  - docker
+  - image
+  - database
 ---
 
 This is docker image to run a MySQL client.
@@ -10,6 +17,8 @@ Image size: 16 MB
 From image: gliderlabs/alpine:3.1
 
 Mysql client: 5.5.40-r1
+
+<!--more-->
 
 ## Usage
 You make [container with MySQL server](http://imega.club/2015/04/30/docker-image-mysql).

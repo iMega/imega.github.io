@@ -1,6 +1,14 @@
 ---
 layout: post
 title: How to jenkins use the username for the repository UUID instead
+lang: en-US
+tags:
+  - jenkins
+  - job-dsl
+  - Credential
+  - continuous integration
+  - Troubleshooting
+  - automation
 ---
 Using [JOB-DSL-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki) has a little trouble when you use scm section
 
@@ -18,6 +26,7 @@ scm {
 ```
 You must write UUID in variable "MyCredential". Who can remember?
 
+<!--more-->
 
 The decision turned out to be fairly simple:
 

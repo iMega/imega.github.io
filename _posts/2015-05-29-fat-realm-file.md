@@ -10,7 +10,6 @@ tags:
   - database
 ---
 I made app with Realm. A few weeks later, I began to get negative reviews, my app falls. I'm checked and got a following error.
-
 <!--more-->
 
 I made app with Realm. A few weeks later, I began to get negative reviews, my app falls. I'm checked and got a following error.

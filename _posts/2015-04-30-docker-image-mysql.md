@@ -8,7 +8,6 @@ tags:
   - image
   - database
 ---
-
 This is docker image to run a MySQL database server.
 
 Image size: 80 MB
@@ -16,7 +15,6 @@ Image size: 80 MB
 From image: gliderlabs/alpine:3.1
 
 Mysql Server: 5.5.40-r1
-
 <!--more-->
 
 ## FREE ACCESS to server! Why?

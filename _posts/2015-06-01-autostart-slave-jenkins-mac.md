@@ -9,7 +9,6 @@ tags:
   - automation
 ---
 The com.jenkins.slave.plist in ~/Library/LaunchAgents
-
 <!--more-->
 
 The com.jenkins.slave.plist in ~/Library/LaunchAgents:

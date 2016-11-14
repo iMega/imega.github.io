@@ -11,6 +11,9 @@ tags:
   - automation
 ---
 Используя [JOB-DSL-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki) есть маленькая неприятность, когда используешь scm например
+<!--more-->
+
+Используя JOB-DSL-plugin есть маленькая неприятность, когда используешь scm например
 
 ```
 scm {

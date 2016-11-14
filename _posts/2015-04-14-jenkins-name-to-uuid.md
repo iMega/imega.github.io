@@ -10,6 +10,9 @@ tags:
   - Troubleshooting
   - automation
 ---
+Using JOB-DSL-plugin has a little trouble when you use scm section
+<!--more-->
+
 Using [JOB-DSL-plugin](https://github.com/jenkinsci/job-dsl-plugin/wiki) has a little trouble when you use scm section
 
 ```

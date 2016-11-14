@@ -8,7 +8,6 @@ tags:
   - composer
 ---
 This is docker image to run the [composer](https://getcomposer.org).
-
 <!--more-->
 
 This is docker image to run the [composer](https://getcomposer.org).

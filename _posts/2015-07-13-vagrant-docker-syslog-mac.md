@@ -12,8 +12,9 @@ tags:
   - Syslog
 ---
 A short story about how to make work for yourself Syslog.
-
 <!--more-->
+
+A short story about how to make work for yourself Syslog.
 
 ## Start syslogd on mac
 

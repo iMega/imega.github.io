@@ -12,8 +12,9 @@ tags:
   - Troubleshooting
 ---
 Настройка рабочего окружения под управлением boo2docker через parallels.
-
 <!--more-->
+
+Настройка рабочего окружения под управлением boo2docker через parallels.
 
 [Мой Vagrantfile](https://github.com/iMega/boot2docker)
 

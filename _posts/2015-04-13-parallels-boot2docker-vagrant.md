@@ -11,10 +11,10 @@ tags:
   - profile
   - Troubleshooting
 ---
+Setup DevEnv to running boo2docker through parallels.
+<!--more-->
 
 Setup DevEnv to running boo2docker through parallels.
-
-<!--more-->
 
 [My Vagrantfile](https://github.com/iMega/boot2docker)
 

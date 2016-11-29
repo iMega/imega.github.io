@@ -5,6 +5,7 @@ description: 'Thinking out loud.'
 url: https://imega.club
 enforce_ssl: imega.club
 paginate: 3
+paginate_path: "/page/:num/"
 baseurl: /
 author:
   name: Dmitry Gavriloff
@@ -28,3 +29,4 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 gems:
   - jekyll-paginate
+  - jekyll-sitemap

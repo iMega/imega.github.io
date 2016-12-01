@@ -2,6 +2,7 @@
 layout: post
 title: Composer
 lang: en-US
+description: This is docker image to run the composer
 tags:
   - docker
   - image

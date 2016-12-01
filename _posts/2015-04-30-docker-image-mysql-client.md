@@ -2,6 +2,7 @@
 layout: post
 title: Mysql client - WE RUSH!
 lang: en-US
+description: This is docker image to run a MySQL client
 tags:
   - mysql
   - client

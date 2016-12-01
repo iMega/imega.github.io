@@ -2,6 +2,7 @@
 layout: post
 title: Mysql - WE RUSH!
 lang: en-US
+description: This is docker image to run a MySQL database server
 tags:
   - mysql
   - docker

@@ -2,6 +2,7 @@
 layout: post
 title: Parallels Boot2docker Vagrant
 lang: en-US
+description: Setup DevEnv to running boo2docker through parallels
 tags:
   - parallels
   - Boot2docker

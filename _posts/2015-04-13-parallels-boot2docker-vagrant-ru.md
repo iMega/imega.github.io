@@ -2,6 +2,7 @@
 layout: post
 title: Parallels Boot2docker Vagrant
 lang: ru-RU
+description: Настройка рабочего окружения под управлением boo2docker через parallels
 tags:
   - parallels
   - Boot2docker

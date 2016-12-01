@@ -2,6 +2,7 @@
 layout: post
 title: FAT FAT FAT
 lang: en-US
+description: I made app with Realm. A few weeks later, I began to get negative reviews, my app falls. I'm checked and got a following error.
 tags:
   - objective-c
   - ios

@@ -2,6 +2,7 @@
 layout: post
 title: How to jenkins use the username for the repository UUID instead
 lang: en-US
+description: Using JOB-DSL-plugin has a little trouble when you use scm section
 tags:
   - jenkins
   - job-dsl

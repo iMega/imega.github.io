@@ -2,6 +2,7 @@
 layout: post
 title: SQL 89
 lang: en-US
+description: This version, initially called SEQUEL (Structured English Query Language)
 tags:
   - sql
   - Query Language

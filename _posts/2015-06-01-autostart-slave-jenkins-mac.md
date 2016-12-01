@@ -2,6 +2,7 @@
 layout: post
 title: Autostart Jenkins slave on Mac OS X
 lang: en-US
+description: The com.jenkins.slave.plist in Library LaunchAgents
 tags:
   - jenkins
   - mac-os-x

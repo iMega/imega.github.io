@@ -2,6 +2,7 @@
 layout: post
 title: xcconfig mobileprovision
 lang: ru-RU
+description: Есть прекрасная приложенька mobileprovisionParser
 tags:
   - objective-c
   - mobileprovision

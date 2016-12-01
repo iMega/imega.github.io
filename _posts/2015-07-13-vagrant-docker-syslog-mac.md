@@ -2,6 +2,7 @@
 layout: post
 title: Vagrant Boot2Docker Syslog
 lang: en-US
+description: A short story about how to make work for yourself Syslog
 tags:
   - parallels
   - Boot2docker

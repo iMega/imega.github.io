@@ -2,6 +2,7 @@
 layout: post
 title: Как в jenkins использовать имя пользователя для репозитария вместо UUID
 lang: ru-RU
+description: Используя JOB-DSL-plugin есть маленькая неприятность, когда используешь scm
 tags:
   - jenkins
   - job-dsl

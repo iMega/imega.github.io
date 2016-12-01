@@ -7,6 +7,11 @@ layout: default
         <span class="post-date" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
             {{ page.date | date_to_string }}
         </span>
+        {% if page.modified %}
+        <meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">
+        {% else %}
+        <meta itemprop="dateModified" content="{{ page.date | date_to_xmlschema }}">
+        {% endif %}
     </header>
     <div itemprop="articleBody">
         {{ content | remove: page.excerpt }}

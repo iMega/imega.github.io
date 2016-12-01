@@ -6,13 +6,7 @@
     {% for item in page.hreflangs %}
     <link rel="alternate" hreflang="{{ item.lang }}" href="{{ site.url }}{{ item.url }}" />
     {% endfor %}
-    <title>
-        {% if page.title %}
-        {{ page.title }} &middot; {{ site.title }}
-        {% else %}
-        {{ site.title }} &middot; {{ site.tagline }}
-        {% endif %}
-    </title>
+    <title lang="{{ page.lang }}">{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }} &middot; {{ site.tagline }}{% endif %}</title>
     <link rel="stylesheet" href="/public/css/poole.css">
     <link rel="stylesheet" href="/public/css/syntax.css">
     <link rel="stylesheet" href="/public/css/lanyon.css">

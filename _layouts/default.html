@@ -1,5 +1,11 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      lang="en-us"
+      itemscope
+      itemtype="http://schema.org/WebPage">
 {% include head.html %}
 <body class="theme-base-0d sidebar-overlay">
 <script type="text/javascript">
@@ -13,7 +19,7 @@
         <div class="container">
             <label for="sidebar-checkbox" class="sidebar-toggle"></label>
             <h3 class="masthead-title">
-                <a href="/" title="Home">{{ site.title }}</a>
+                <a href="{{ site.url }}" title="Home">{{ site.title }}</a>
                 <small>{{ site.tagline }}</small>
             </h3>
         </div>

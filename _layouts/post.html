@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article lang="{{ page.lang }}" class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header itemprop="inLanguage" content="{{ page.lang }}">
-        <h1 class="post-title" itemprop="headline">
-            {{ page.title }}
-        </h1>
+        <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
         <span class="post-date" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
             {{ page.date | date_to_string }}
         </span>
@@ -22,7 +20,7 @@ layout: default
             </p>
         </div>
         <div>
-            <a itemprop="url" href="{{ page.url }}" title="permanent link">Permalink</a>
+            <a itemprop="url" href="{{ site.url }}{{ page.url }}" title="permanent link">Permalink</a>
         </div>
         <ul class="post-tags">
         {% for tag in page.tags %}
@@ -31,6 +29,23 @@ layout: default
         </ul>
     </footer>
 </article>
+<meta itemscope
+      itemprop="mainEntityOfPage"
+      itemType="https://schema.org/WebPage"
+      itemid="{{ site.url }}{{ page.url }}"
+      content="{{ page.title }}">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="url image"
+             src="{{ site.url }}/public/imega-logo.png"
+             style="display:none;"
+             alt="{{ site.title }}">
+        <meta itemprop="width" content="100">
+        <meta itemprop="height" content="100">
+    </div>
+    <meta itemprop="name" content="{{ site.title }}">
+    <meta itemprop="address" content="Saint Petersburg">
+</div>
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {

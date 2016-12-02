@@ -9,6 +9,9 @@ paginate: 3
 paginate_path: "page/:num/"
 author:
   name: Dmitry Gavriloff
+  first: Dmitry
+  last: Gavriloff
+  gender: male
   url: http://imega.ru
   email: info@imega.ru
   org: iMega

@@ -3,6 +3,7 @@ title: iMega's Blog
 tagline: This notebook
 description: 'Thinking out loud.'
 url: https://imega.club
+url_nossl: http://imega.club
 enforce_ssl: imega.club
 paginate: 3
 paginate_path: "page/:num/"

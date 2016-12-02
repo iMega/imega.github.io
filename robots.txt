@@ -1,4 +1,6 @@
 User-agent: *
 Host: https://imega.club
-sitemap: https://imega.club/sitemap.xml
+Sitemap: https://imega.club/sitemap.xml
 Disallow: /public
+Disallow: /page2
+Disallow: /page4

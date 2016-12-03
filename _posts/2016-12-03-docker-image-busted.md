@@ -11,7 +11,6 @@ tags:
   - framework
 ---
 This is docker image to run the [busted](http://olivinelabs.com/busted/){:rel="nofollow"}. Busted is a unit testing framework with a focus on being easy to use.
-
 <!--more-->
 
 This is docker image to run the [busted](http://olivinelabs.com/busted/){:rel="nofollow"}. Busted is a unit testing framework with a focus on being easy to use.

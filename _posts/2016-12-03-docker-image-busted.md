@@ -10,11 +10,11 @@ tags:
   - testing
   - framework
 ---
-This is docker image to run the [busted](http://olivinelabs.com/busted/). Busted is a unit testing framework with a focus on being easy to use.
+This is docker image to run the [busted](http://olivinelabs.com/busted/){:rel="nofollow"}. Busted is a unit testing framework with a focus on being easy to use.
 
 <!--more-->
 
-This is docker image to run the [busted](http://olivinelabs.com/busted/).
+This is docker image to run the [busted](http://olivinelabs.com/busted/){:rel="nofollow"}. Busted is a unit testing framework with a focus on being easy to use.
 
 [![](https://images.microbadger.com/badges/image/imega/busted.svg)](http://microbadger.com/images/imega/busted "Get your own image badge on microbadger.com") [![CircleCI](https://circleci.com/gh/imega-docker/busted.svg?style=svg)](https://circleci.com/gh/imega-docker/busted)
 

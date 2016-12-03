@@ -3,4 +3,6 @@ Host: https://imega.club
 Sitemap: https://imega.club/sitemap.xml
 Disallow: /public
 Disallow: /page2
+Disallow: /page3
 Disallow: /page4
+Disallow: /page5

@@ -2,7 +2,8 @@
 layout: post
 title: Вырезки из Думай медленно, решай быстро
 lang: ru-RU
-description:   
+description: Сборник нарезок из книги THINKING, FAST AND SLOW
+modified: 2016-12-07
 tags:
   - Daniel
   - Kahneman
@@ -35,3 +36,11 @@ tags:
 Inferring Character From Faces: A Developmental Study
 Emily J. Cogsdill, Alexander T. Todorov, Elizabeth S. Spelke and Mahzarin R. Banaji Psychological Science 2014 25
 
+### Новая оценка под влиянием и извлечение из результатов важного
+Нисбетт и Борджида описывают результаты своих исследований емкой фразой:
+Нежелание участников выводить частное из общего сравнимо лишь с их готовностью выводить общее из частного.
+
+Отрывок из книги: Даниэль  Канеман. «Думай медленно… Решай быстро». iBooks. 
+Attribution and the psychology of prediction.
+By Nisbett, Richard E.; Borgida, Eugene
+Journal of Personality and Social Psychology, Vol 32(5), Nov 1975, 932-943.

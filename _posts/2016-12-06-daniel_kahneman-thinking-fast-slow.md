@@ -40,7 +40,6 @@ Emily J. Cogsdill, Alexander T. Todorov, Elizabeth S. Spelke and Mahzarin R. Ban
 Нисбетт и Борджида описывают результаты своих исследований емкой фразой:
 Нежелание участников выводить частное из общего сравнимо лишь с их готовностью выводить общее из частного.
 
-Отрывок из книги: Даниэль  Канеман. «Думай медленно… Решай быстро». iBooks. 
 Attribution and the psychology of prediction.
 By Nisbett, Richard E.; Borgida, Eugene
 Journal of Personality and Social Psychology, Vol 32(5), Nov 1975, 932-943.

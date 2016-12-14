@@ -6,7 +6,7 @@ html {
     color: $text-color;
 }
 
-@media (min-width: 38rem) {
+@media (min-width: 640px) {
     html {
         font-size: 20px;
     }

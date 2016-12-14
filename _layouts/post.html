@@ -3,8 +3,8 @@ layout: default
 ---
 <article lang="{{ page.lang }}" class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header itemprop="inLanguage" content="{{ page.lang }}">
-        <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-        <span class="post-date" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
+        <h1 itemprop="headline">{{ page.title }}</h1>
+        <span class="post-date text-inactive" itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
             {{ page.date | date_to_string }}
         </span>
         {% if page.modified %}
@@ -29,7 +29,7 @@ layout: default
         </div>
         <ul class="post-tags">
         {% for tag in page.tags %}
-            <li class="tag" itemprop="keywords">{{ tag }}</li>
+            <li class="tag text-inactive" itemprop="keywords">{{ tag }}</li>
         {% endfor %}
         </ul>
     </footer>

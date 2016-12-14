@@ -5,10 +5,10 @@ robot: noindex,follow
 <div class="posts">
     {% for post in paginator.posts %}
     <div class="post">
-        <h2 class="post-title">
+        <h2>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
-        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <span class="post-date text-inactive">{{ post.date | date_to_string }}</span>
         {{ post.excerpt }}
     </div>
     {% endfor %}

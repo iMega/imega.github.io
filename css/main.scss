@@ -1,6 +1,6 @@
 ---
 ---
-
+@import "theme";
 @import "palette";
 @import "typography";
 @import "alignment";
@@ -17,20 +17,7 @@ html, body {
     padding: 0;
 }
 
-html {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-@media (min-width: 38rem) {
-    html {
-        font-size: 20px;
-    }
-}
-
 body {
-    color: #515151;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;

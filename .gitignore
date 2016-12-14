@@ -1,19 +1,5 @@
-# Ignore docs files
-_gh_pages
 _site
 .DS_Store
 .idea
-
-# Komodo
-*.komodoproject
-.komodotools
-
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
-node_modules
 .bitballoon
-
 .sass-cache

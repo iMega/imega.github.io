@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     {% if page.title %}
-        <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+        <meta prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
         <meta property="og:url" content="{{ site.url }}{{ page.url }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }} &middot; {{ site.tagline }}{% endif %}">
@@ -53,4 +53,4 @@
     {% for item in page.robot %}
     <meta name="robots" content="{{ item }}">
     {% endfor %}
-</head>
+</meta>

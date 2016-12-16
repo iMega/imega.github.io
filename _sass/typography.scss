@@ -1,14 +1,14 @@
 html {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     color: $text-color;
 }
 
-@media (min-width: 640px) {
+@media screen and (max-width: 640px) {
     html {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -43,4 +43,13 @@ h4, h5, h6 {
 
 .text-inactive {
     color: $text-inactive-color;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
 }

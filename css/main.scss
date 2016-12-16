@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "theme";
 @import "palette";
 @import "typography";
@@ -8,6 +9,8 @@
 @import "paginator";
 @import "markdown";
 @import "syntax";
+@import "header";
+@import "sidebar";
 
 * {
     -webkit-box-sizing: border-box;
@@ -25,4 +28,23 @@ body {
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+}
+
+.container {
+    max-width: 28rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 38rem) {
+    .container {
+        max-width: 32rem;
+    }
+}
+@media (min-width: 56rem) {
+    .container {
+        max-width: 38rem;
+    }
 }

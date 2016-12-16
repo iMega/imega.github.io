@@ -16,18 +16,18 @@ robot: noindex,follow
 
 <div class="pagination text-inactive text-center">
     {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page/{{paginator.next_page}}">Older</a>
+        <a class="pagination-item" href="/page/{{paginator.next_page}}">Older</a>
     {% else %}
-    <span class="pagination-item older">Older</span>
+        <span class="pagination-item">Older</span>
     {% endif %}
     {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-    <a class="pagination-item newer" href="/">Newer</a>
+        {% if paginator.page == 2 %}
+            <a class="pagination-item" href="/">Newer</a>
+        {% else %}
+            <a class="pagination-item" href="/page/{{paginator.previous_page}}">Newer</a>
+        {% endif %}
     {% else %}
-    <a class="pagination-item newer" href="/page/{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-    {% else %}
-    <span class="pagination-item newer">Newer</span>
+        <span class="pagination-item">Newer</span>
     {% endif %}
 </div>
 <script>

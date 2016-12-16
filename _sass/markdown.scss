@@ -1,0 +1,27 @@
+hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid $grey-200;
+    border-bottom: 1px solid #fff;
+}
+
+code,
+pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+    padding: 0.2rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    background-color: $block-bg-color;
+}
+
+pre {
+    margin: 0.2rem -1rem;
+    padding: 1rem;
+    overflow-x: auto;
+    code {
+        padding: 0;
+    }
+}
+

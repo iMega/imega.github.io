@@ -50,9 +50,7 @@
   margin-bottom: 0;
   color: #505050;
 }
-.masthead-title a {
-  color: #505050;
-}
+
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -332,32 +330,4 @@ a.sidebar-nav-item:focus {
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #6a9fb5;
 }
-.theme-base-0d .container a,
-.theme-base-0d .sidebar-toggle,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
 
-/* Magenta */
-.theme-base-0e .sidebar,
-.theme-base-0e .sidebar-toggle:active,
-.theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #aa759f;
-}
-.theme-base-0e .container a,
-.theme-base-0e .sidebar-toggle,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar,
-.theme-base-0f .sidebar-toggle:active,
-.theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #8f5536;
-}
-.theme-base-0f .container a,
-.theme-base-0f .sidebar-toggle,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
-}

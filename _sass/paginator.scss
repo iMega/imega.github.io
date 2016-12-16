@@ -5,12 +5,12 @@
     &-item {
         display: block;
         padding: 1rem;
-        border-top: 1px solid $link-color;
-        border-bottom: 1px solid $link-color;
+        border-top: 1px solid $line-color;
+        border-bottom: 1px solid $line-color;
         float: left;
         width: 50%;
         &:last-child {
-            border-left: 1px solid $link-color;
+            border-left: 1px solid $line-color;
         }
     }
     a.pagination-item:hover {

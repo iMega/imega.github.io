@@ -38,6 +38,11 @@ body {
     margin-right: auto;
 }
 
+.wrap {
+    position: relative;
+    width: 100%;
+}
+
 @media (min-width: 38rem) {
     .container {
         max-width: 32rem;

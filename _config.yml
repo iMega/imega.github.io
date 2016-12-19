@@ -33,6 +33,7 @@ excerpt_separator: <!--more-->
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

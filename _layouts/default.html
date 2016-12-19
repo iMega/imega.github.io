@@ -7,7 +7,7 @@ layout: compress
       itemscope
       itemtype="http://schema.org/WebPage">
 {% include head.html %}
-<body class="theme-base-0d sidebar-overlay">
+<body class="sidebar-overlay">
 <script type="text/javascript">
     var host = "imega.club";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -28,5 +28,6 @@ layout: compress
         {{ content }}
     </div>
 </div>
+{% include style-load.html %}
 </body>
 </html>

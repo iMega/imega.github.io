@@ -53,3 +53,7 @@ body {
         max-width: 38rem;
     }
 }
+
+#sidebar, .pagination {
+    display: inherit;
+}

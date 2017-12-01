@@ -8,9 +8,9 @@ enforce_ssl: imega.club
 paginate: 3
 paginate_path: "page/:num/"
 author:
-  name: Dmitry Gavriloff
+  name: Dmitry Stoletoff
   first: Dmitry
-  last: Gavriloff
+  last: Stoletoff
   gender: male
   url: http://imega.ru
   email: info@imega.ru

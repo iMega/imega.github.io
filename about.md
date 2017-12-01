@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-Dmitry Gavriloff <info(at)imega.ru>
+Dmitry Stoletoff <info(at)imega.ru>
 
 [iMega’s GitHub account](https://github.com/iMega)
 

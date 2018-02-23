@@ -49,3 +49,4 @@ tags:
 2. Tom DeMarco, Timothy Lister - Peopleware. Dorset House, 1999.
 3. Robert D. Austin - Measuring and Managing Performance in Organizations.
 4. Abelson, Sussman - Structure and Interpretation of Computer Programs.
+5. Hal Abelson - Introduction to Computer Science.

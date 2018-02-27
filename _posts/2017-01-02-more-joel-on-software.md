@@ -50,3 +50,9 @@ tags:
 3. Robert D. Austin - Measuring and Managing Performance in Organizations.
 4. Abelson, Sussman - Structure and Interpretation of Computer Programs.
 5. Hal Abelson - Introduction to Computer Science.
+6. Brian Kernighan, Dennis Ritchie - The C Programming Language. Prentice Hall, 1988.
+7. Scott Rosenberg - Dreaming in Code. Three Rivers Press, 2007
+8. Barry Schwartz - The Paradox of Choice: Why More Is Less. Harper Perennial, 2005
+9. Joel Spolsky - User Interface Design for Programmers. Apress, 2001
+10. Ray Oldenburg - The Great Good Place. Da Capo Press, 1999
+11. Robert Putnam - Bowling Alone. Simon & Schuster, 2001
